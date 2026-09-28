@@ -1,0 +1,53 @@
+{
+  "name": "campushire-server",
+  "version": "1.0.0",
+  "description": "Backend API for CampusHire – College Placement & Recruitment Management System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "seed": "node scripts/seed.js",
+    "audit": "node scripts/auditAll.js",
+    "verify:models": "node scripts/verifyModels.js",
+    "test:auth": "node scripts/testAuth.js",
+    "test:profile": "node scripts/testStudentProfile.js",
+    "test:admin-students": "node scripts/testAdminStudents.js",
+    "test:company": "node scripts/testCompany.js",
+    "test:drives": "node scripts/testRecruitmentDrive.js",
+    "test:eligibility": "node scripts/testEligibility.js",
+    "test:applications": "node scripts/testRecruitmentApplications.js",
+    "test:resumes": "node scripts/testResumeManagement.js",
+    "test:resume-analysis": "node scripts/testResumeAnalysis.js",
+    "test:resume-match": "node scripts/testJobSpecificResumeMatching.js",
+    "test:interviews": "node scripts/testInterviews.js",
+    "test:updates": "node scripts/testPlacementUpdates.js",
+    "test:notifications": "node scripts/testNotifications.js",
+    "test:results": "node scripts/testPlacementResults.js",
+    "test:analytics": "node scripts/testPlacementAnalytics.js"
+  },
+  "keywords": [
+    "campushire",
+    "placement-management",
+    "express",
+    "mongodb",
+    "rest-api",
+    "btwa"
+  ],
+  "author": "CampusHire Team",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "firebase-admin": "^14.5.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5",
+    "morgan": "^1.10.0",
+    "multer": "^2.4.0",
+    "pdf-parse": "^2.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

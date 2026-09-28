@@ -1,0 +1,26 @@
+{
+  "name": "campushire",
+  "version": "1.0.0",
+  "description": "CampusHire – College Placement & Recruitment Management System",
+  "scripts": {
+    "dev": "npm --prefix server run dev",
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "build:client": "npm --prefix client run build",
+    "seed": "npm --prefix server run seed",
+    "audit": "npm --prefix server run audit",
+    "start": "npm --prefix server start"
+  },
+  "keywords": [
+    "campushire",
+    "btwa"
+  ],
+  "author": "CampusHire Team",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^18.0.4",
+    "express": "^5.2.1",
+    "mongoose": "^9.10.2"
+  }
+}
